@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.seuraul.mycontacts.AddContact">
+    <item
+        android:id="@+id/menu_item_save_contact"
+        android:orderInCategory="120"
+        android:title="@string/save"
+        app:showAsAction="never"
+        android:visible="true" />
+    <item
+        android:id="@+id/menu_item_cancel_contact"
+        android:orderInCategory="120"
+        android:title="@string/cancel"
+        app:showAsAction="never"
+        android:visible="true" />
+</menu>
