@@ -3,6 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.seuraul.mycontacts.ContactList">
     <item
+        android:id="@+id/menu_item_add_contact"
+        android:orderInCategory="110"
+        android:title="@string/add_contact"
+        app:showAsAction="never"
+        android:visible="true" />
+    <item
         android:id="@+id/menu_item_close_list"
         android:orderInCategory="120"
         android:title="@string/close_list"

@@ -33,7 +33,7 @@ public class DatabaseManager extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL("CREATE TABLE " + TABLE_NAME + "(" + ID_FIELD + " INTEGER PRIMARY KEY AUTO INCREMENT," + FIRST_NAME_FIELD + " TEXT," + LAST_NAME_FIELD + " TEXT," + PHONE_FIELD + " TEXT," + ADDRESS_FIELD + " TEXT," + CITY_FIELD + " TEXT," + STATE_FIELD + " TEXT," + ZIPCODE_FIELD + " TEXT)");
+        db.execSQL("CREATE TABLE " + TABLE_NAME + " (" + ID_FIELD + " INTEGER PRIMARY KEY AUTOINCREMENT," + FIRST_NAME_FIELD + " TEXT," + LAST_NAME_FIELD + " TEXT," + PHONE_FIELD + " TEXT," + ADDRESS_FIELD + " TEXT," + CITY_FIELD + " TEXT," + STATE_FIELD + " TEXT," + ZIPCODE_FIELD + " TEXT);");
     }
 
     @Override
